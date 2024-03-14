@@ -9,7 +9,7 @@ __author__ = Pedro Biel
 
 __version__ = 0.0.1
 
-__email__ = pedro.biel@vamanholding.com
+__email__ = structural.eng.biel@gmail.com
 
 versión 0.0.1 : se sutituye with open(fichero_json, 'r') por with open(fichero_json, encoding='utf-8') para asegurar la codificación correcta
 """
