@@ -8,7 +8,7 @@ __author__ = Pedro Biel
 
 __version__ = 0.0.1
 
-__email__ = pbiel@taimweser.com
+__email__ = structural.eng.biel@gmail.com
 """
 
 
