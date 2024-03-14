@@ -7,7 +7,7 @@ __author__ = Pedro Biel
 
 __version__ = 0.0.0
 
-__email__ = pedro.biel@vamanholding.com
+__email__ = structural.eng.biel@gmail.com
 """
 
 import json
