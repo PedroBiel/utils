@@ -6,7 +6,7 @@ Created on Tu Apr 28 16:45:40 2020
 
 __author__ = Pedro Biel
 
-__version__ = 1.0.1
+__version__ = 1.0.2
 
 __email__ = structural.eng.biel@gmail.com
 """
@@ -28,7 +28,7 @@ class SQLitePandasDF:
         self.ruta_base_datos = ruta_base_datos  # Ruta donde se encuentra la base de datos y nombre de la base de datos con extensión.
         self.tbl = tabla  # Tabla de la base de datos.
 
-    def sql_to_df(self) -> object:
+    def sql_to_df(self) -> pd.DataFrame:
         """
         Crea pandas DataFrame con los datos de la base de datos SQLite.
 
@@ -55,7 +55,7 @@ class SQLitePandasDF2:
         self.base_datos = base_datos  # Nombre de la base de datos sin extensión.
         self.tbl = tabla  # Tabla de la base de datos.
 
-    def sql_to_df(self) -> object:
+    def sql_to_df(self) -> pd.DataFrame:
         """
         Crea pandas DataFrame con los datos de la base de datos SQLite.
 
